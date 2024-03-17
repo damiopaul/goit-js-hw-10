@@ -1,0 +1,51 @@
+
+.wrapper,
+.timer {
+    margin-left: 156px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 8px;
+}
+.input-text {
+    border-radius:  4px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 16px;   
+}
+input.text:disabled {
+    border-color: #808080;
+}
+
+.dataStart {
+    border-radius: 8px;
+    background-color: #4E75FF;
+    width: 75px;
+    height: 40px;
+    color: #ffff
+
+}
+
+.dataStart:disabled {
+    background-color: #CFCFCF;
+}
+
+.dataStart:hover{
+    background-color: #6C8CFF;
+    
+}
+
+
+.timer {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
+
+.field {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
